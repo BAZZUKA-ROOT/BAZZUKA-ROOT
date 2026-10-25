@@ -125,6 +125,35 @@
   </tr>
   <tr>
     <td width="50%">
+      <h3 align="center">🍱 Cantina da Bea</h3>
+      <p align="center">
+        <a href="https://github.com/BAZZUKA-ROOT/cantina-bea">
+          <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
+        </a>
+      </p>
+      <p align="center">Site completo para cantina/restaurante — cardápio, galeria de fotos, botão WhatsApp, mobile-first. Zero dependências externas.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/>
+        <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white"/>
+        <img src="https://img.shields.io/badge/JS-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">🍽️ Template Restaurante</h3>
+      <p align="center">
+        <a href="https://github.com/BAZZUKA-ROOT/site-restaurante-template">
+          <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
+        </a>
+      </p>
+      <p align="center">Template HTML responsivo para restaurante — dark mode automático, animações CSS, reservas e pedido via WhatsApp. Hospedagem estática.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/>
+        <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
       <h3 align="center">🚀 TurboSaaS</h3>
       <p align="center">
         <a href="https://github.com/BAZZUKA-ROOT/turbosaas-rebuild">
