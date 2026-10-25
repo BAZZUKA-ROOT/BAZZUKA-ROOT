@@ -34,10 +34,10 @@
 <table>
 <tr>
 <td width="50%">
-<h3 align="center">⚡ Veltora</h3>
-<p align="center"><a href="https://github.com/BAZZUKA-ROOT/veltora"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a></p>
-<p align="center">Gerador de sites profissionais + CRM para prospecção via WhatsApp. Bot com IA Groq + acesso por SHA-256.</p>
-<p align="center"><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/></p>
+<h3 align="center">🤖 Claude Monitor</h3>
+<p align="center"><a href="https://github.com/BAZZUKA-ROOT/claude-monitor"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a></p>
+<p align="center">Dashboard que monitora tokens e custo da API Anthropic por período de cobrança. Alertas via Telegram + histórico SQLite.</p>
+<p align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"/> <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white"/></p>
 </td>
 <td width="50%">
 <h3 align="center">🖥️ PDV Local</h3>
@@ -107,7 +107,7 @@
 
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5544920072871)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maiconluisbraga98@gmail.com)
-[![Veltora](https://img.shields.io/badge/Veltora_Digitais-7C3AED?style=for-the-badge&logo=lightning&logoColor=white)](https://veltoradigitais.com.br)
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white)](https://bazzuka-root.github.io/portfolio-bazzuka/)
 
 </div>
 
