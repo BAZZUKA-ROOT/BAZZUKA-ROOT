@@ -14,10 +14,11 @@
 
 ```python
 dev = {
-    "linguagens":  ["PHP", "Python", "JavaScript", "Node.js"],
-    "frontend":    ["HTML/CSS", "React", "Vite"],
+    "linguagens":  ["PHP", "Python", "JavaScript", "Node.js", "C++"],
+    "frontend":    ["HTML/CSS", "React", "Vite", "Next.js"],
     "backend":     ["REST APIs", "Telegram Bot", "WhatsApp Bot"],
     "hardware":    ["ESP32", "Arduino", "IoT"],
+    "desktop":     ["Electron"],
     "infra":       ["VPS Linux", "Hestia CP", "Nginx", "PM2"],
     "banco":       ["MySQL", "MariaDB", "SQLite"],
 }
@@ -30,10 +31,14 @@ dev = {
 | Projeto | Descrição | Stack |
 |---|---|---|
 | [⚡ Veltora](https://github.com/BAZZUKA-ROOT/veltora) | Gerador de sites + CRM para prospecção local | HTML · JS · Node.js · Python |
-| [💳 Simulador Maquininha](https://github.com/BAZZUKA-ROOT/simulador-maquininha) | Simulador web de transações PagSeguro | HTML · JS |
-| [📍 Ponto WiFi](https://github.com/BAZZUKA-ROOT/ponto-wifi) | Sistema de ponto eletrônico via WiFi | PHP · MySQL |
-| [🤖 Bot Finanças](https://github.com/BAZZUKA-ROOT/bot-financas-telegram) | Bot Telegram para controle financeiro | PHP · Telegram API |
-| [🔋 Monitor ESP32](https://github.com/BAZZUKA-ROOT/monitor-internet-esp32) | Monitor de internet com display via ESP32 | C++ · Arduino |
+| [💳 Simulador Maquininha](https://github.com/BAZZUKA-ROOT/simulador-maquininha) | Simulador web de terminal PagSeguro | HTML · JS |
+| [📍 Ponto WiFi](https://github.com/BAZZUKA-ROOT/ponto-wifi-php) | Sistema de ponto eletrônico via WiFi | PHP |
+| [🧹 Limpador Automático](https://github.com/BAZZUKA-ROOT/limpador-automatico-windows) | Organiza Downloads e limpa temp no Windows 11 | Python · JS · PowerShell |
+| [📥 Telegram Collector](https://github.com/BAZZUKA-ROOT/telegram-collector) | Baixa e categoriza arquivos de grupos Telegram | Python |
+| [📡 Monitor ESP32](https://github.com/BAZZUKA-ROOT/monitor-internet-esp32) | Monitor de internet com ESP32 e alertas Telegram | C++ · Arduino |
+| [🔐 CheckSafe PHP](https://github.com/BAZZUKA-ROOT/checksafe-php) | Detector de fraudes em checkout com alerta Telegram | PHP |
+| [🎮 Epic Automation](https://github.com/BAZZUKA-ROOT/epic-automation) | Automação para resgatar jogos gratuitos na Epic | Python |
+| [🧾 Verificador NT Fiscal](https://github.com/BAZZUKA-ROOT/verificador-nota-fiscal) | Detecta notas fiscais falsas no navegador | HTML · JS |
 
 ---
 
