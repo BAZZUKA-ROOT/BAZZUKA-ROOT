@@ -1,7 +1,5 @@
 <div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=200&section=header&text=Bazzuka&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-stack%20%7C%20IoT%20%7C%20Automation&descAlignY=55&descColor=d8b4fe" width="100%"/>
-
 </div>
 
 <div align="center">
@@ -31,162 +29,51 @@
 
 ---
 
-## 🚀 Projetos
+## 🚀 Projetos em Destaque
 
 <table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">⚡ Veltora</h3>
-      <p align="center">
-        <a href="https://github.com/BAZZUKA-ROOT/veltora">
-          <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
-        </a>
-      </p>
-      <p align="center">Gerador de sites profissionais + CRM integrado para prospecção de negócios locais via WhatsApp. Bot com IA Groq + sistema de acesso por código SHA-256.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/>
-        <img src="https://img.shields.io/badge/JS-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center">🖥️ PDV Local</h3>
-      <p align="center">
-        <a href="https://github.com/BAZZUKA-ROOT/pdv-local">
-          <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
-        </a>
-      </p>
-      <p align="center">Ponto de venda desktop completo com Electron + SQLite — 100% offline, sem servidor. Caixa, catálogo, clientes, estoque, vendas e relatórios.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white"/>
-        <img src="https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white"/>
-        <img src="https://img.shields.io/badge/JS-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">📡 Monitor ESP32</h3>
-      <p align="center">
-        <a href="https://github.com/BAZZUKA-ROOT/monitor-internet-esp32">
-          <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
-        </a>
-      </p>
-
-      <p align="center">Monitora latência e qualidade da internet com ESP32. Histórico persistente, classificação automática e alertas via Telegram. Portal web responsivo + OTA.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white"/>
-        <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white"/>
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center">💳 Maquininha Web</h3>
-      <p align="center">
-        <a href="https://github.com/BAZZUKA-ROOT/maquininha-web-php">
-          <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
-        </a>
-      </p>
-      <p align="center">Terminal POS no navegador com Mercado Pago — aceita cartão e PIX. Webhook, painel admin e API REST para integração.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white"/>
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
-        <img src="https://img.shields.io/badge/MercadoPago-009EE3?style=flat&logo=mercadopago&logoColor=white"/>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">📍 Ponto WiFi</h3>
-      <p align="center">
-        <a href="https://github.com/BAZZUKA-ROOT/ponto-wifi-php">
-          <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
-        </a>
-      </p>
-      <p align="center">Sistema de ponto eletrônico via WiFi — funcionário só consegue registrar se estiver na rede interna do estabelecimento. Sem app para instalar.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white"/>
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center">📥 Telegram Collector</h3>
-      <p align="center">
-        <a href="https://github.com/BAZZUKA-ROOT/telegram-collector">
-          <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
-        </a>
-      </p>
-      <p align="center">Bot Python que monitora grupos e canais do Telegram, baixa arquivos automaticamente e os categoriza por tipo de conteúdo usando palavras-chave.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white"/>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🍱 Cantina da Bea</h3>
-      <p align="center">
-        <a href="https://github.com/BAZZUKA-ROOT/cantina-bea">
-          <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
-        </a>
-        <a href="https://bazzuka-root.github.io/cantina-bea/">
-          <img src="https://img.shields.io/badge/Demo_Ao_Vivo-25D366?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-        </a>
-      </p>
-      <p align="center">Site completo para cantina/restaurante — cardápio, galeria de fotos, botão WhatsApp, mobile-first. Zero dependências externas.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/>
-        <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white"/>
-        <img src="https://img.shields.io/badge/JS-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center">🍽️ Template Restaurante</h3>
-      <p align="center">
-        <a href="https://github.com/BAZZUKA-ROOT/site-restaurante-template">
-          <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
-        </a>
-        <a href="https://bazzuka-root.github.io/site-restaurante-template/">
-          <img src="https://img.shields.io/badge/Demo_Ao_Vivo-25D366?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-        </a>
-      </p>
-      <p align="center">Template HTML responsivo para restaurante — dark mode automático, animações CSS, reservas e pedido via WhatsApp. Hospedagem estática.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/>
-        <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white"/>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🚀 TurboSaaS</h3>
-      <p align="center">
-        <a href="https://github.com/BAZZUKA-ROOT/turbosaas-rebuild">
-          <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
-        </a>
-      </p>
-      <p align="center">Landing page para plataforma de criação de apps com IA — catálogo de ferramentas, comunidade, dashboard e sistema de checkout integrado.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white"/>
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center">🔐 CheckSafe PHP</h3>
-      <p align="center">
-        <a href="https://github.com/BAZZUKA-ROOT/checksafe-php">
-          <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
-        </a>
-      </p>
-      <p align="center">Detecta padrões suspeitos em checkouts online e envia alertas em tempo real via Telegram. Painel admin + armazenamento em JSON.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white"/>
-      </p>
-    </td>
-  </tr>
+<tr>
+<td width="50%">
+<h3 align="center">⚡ Veltora</h3>
+<p align="center"><a href="https://github.com/BAZZUKA-ROOT/veltora"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a></p>
+<p align="center">Gerador de sites profissionais + CRM para prospecção via WhatsApp. Bot com IA Groq + acesso por SHA-256.</p>
+<p align="center"><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/></p>
+</td>
+<td width="50%">
+<h3 align="center">🖥️ PDV Local</h3>
+<p align="center"><a href="https://github.com/BAZZUKA-ROOT/pdv-local"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a></p>
+<p align="center">Ponto de venda desktop 100% offline com Electron + SQLite. Caixa, estoque, vendas e relatórios — sem servidor.</p>
+<p align="center"><img src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white"/> <img src="https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white"/> <img src="https://img.shields.io/badge/JS-F7DF1E?style=flat&logo=javascript&logoColor=black"/></p>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<h3 align="center">📡 Monitor ESP32</h3>
+<p align="center"><a href="https://github.com/BAZZUKA-ROOT/monitor-internet-esp32"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a></p>
+<p align="center">Monitora latência e qualidade da internet com ESP32. Alertas via Telegram + portal web responsivo + OTA.</p>
+<p align="center"><img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white"/> <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white"/></p>
+</td>
+<td width="50%">
+<h3 align="center">💳 Maquininha Web</h3>
+<p align="center"><a href="https://github.com/BAZZUKA-ROOT/maquininha-web-php"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a></p>
+<p align="center">Terminal POS no navegador com Mercado Pago — cartão e PIX. Webhook, painel admin e API REST.</p>
+<p align="center"><img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/></p>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<h3 align="center">🍱 Cantina da Bea</h3>
+<p align="center"><a href="https://github.com/BAZZUKA-ROOT/cantina-bea"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://bazzuka-root.github.io/cantina-bea/"><img src="https://img.shields.io/badge/Demo-25D366?style=for-the-badge&logo=googlechrome&logoColor=white"/></a></p>
+<p align="center">Site completo para cantina/restaurante — cardápio, galeria, WhatsApp. Mobile-first, zero dependências.</p>
+<p align="center"><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white"/></p>
+</td>
+<td width="50%">
+<h3 align="center">📥 Telegram Collector</h3>
+<p align="center"><a href="https://github.com/BAZZUKA-ROOT/telegram-collector"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a></p>
+<p align="center">Bot Python que monitora grupos no Telegram, baixa arquivos e os categoriza automaticamente por tipo.</p>
+<p align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white"/></p>
+</td>
+</tr>
 </table>
 
 ---
@@ -194,10 +81,8 @@
 ## 📊 Stats
 
 <div align="center">
-
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=BAZZUKA-ROOT&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BAZZUKA-ROOT&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
-
 </div>
 
 <div align="center">
@@ -221,11 +106,9 @@
 ---
 
 <div align="center">
-
 <img src="https://komarev.com/ghpvc/?username=BAZZUKA-ROOT&color=7c3aed&style=flat-square&label=visitas" alt="Visitas"/>
 
 *"Código que resolve problema real vale mais que código perfeito no papel."*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=80&section=footer" width="100%"/>
-
 </div>
