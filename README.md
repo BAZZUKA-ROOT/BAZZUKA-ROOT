@@ -51,6 +51,22 @@
       </p>
     </td>
     <td width="50%">
+      <h3 align="center">🖥️ PDV Local</h3>
+      <p align="center">
+        <a href="https://github.com/BAZZUKA-ROOT/pdv-local">
+          <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
+        </a>
+      </p>
+      <p align="center">Ponto de venda desktop completo com Electron + SQLite — 100% offline, sem servidor. Caixa, catálogo, clientes, estoque, vendas e relatórios.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white"/>
+        <img src="https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white"/>
+        <img src="https://img.shields.io/badge/JS-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
       <h3 align="center">📡 Monitor ESP32</h3>
       <p align="center">
         <a href="https://github.com/BAZZUKA-ROOT/monitor-internet-esp32">
@@ -62,6 +78,20 @@
         <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white"/>
         <img src="https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white"/>
         <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white"/>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">💳 Maquininha Web</h3>
+      <p align="center">
+        <a href="https://github.com/BAZZUKA-ROOT/maquininha-web-php">
+          <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
+        </a>
+      </p>
+      <p align="center">Terminal POS no navegador com Mercado Pago — aceita cartão e PIX. Webhook, painel admin e API REST para integração.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white"/>
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/MercadoPago-009EE3?style=flat&logo=mercadopago&logoColor=white"/>
       </p>
     </td>
   </tr>
@@ -95,16 +125,16 @@
   </tr>
   <tr>
     <td width="50%">
-      <h3 align="center">🧹 Limpador Windows</h3>
+      <h3 align="center">🚀 TurboSaaS</h3>
       <p align="center">
-        <a href="https://github.com/BAZZUKA-ROOT/limpador-automatico-windows">
+        <a href="https://github.com/BAZZUKA-ROOT/turbosaas-rebuild">
           <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
         </a>
       </p>
-      <p align="center">Organiza Downloads por tipo, limpa pasta Temp e detecta programas não usados no Windows 11. Agendar via PowerShell. Python + JS.</p>
+      <p align="center">Landing page para plataforma de criação de apps com IA — catálogo de ferramentas, comunidade, dashboard e sistema de checkout integrado.</p>
       <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white"/>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white"/>
       </p>
     </td>
     <td width="50%">
