@@ -74,6 +74,14 @@
 <p align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white"/></p>
 </td>
 </tr>
+<tr>
+<td width="50%" colspan="2">
+<h3 align="center">🌐 Portfólio — bazzuka-root.github.io/portfolio-bazzuka</h3>
+<p align="center"><a href="https://github.com/BAZZUKA-ROOT/portfolio-bazzuka"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a></p>
+<p align="center">Portfolio profissional com Three.js 3D, partículas, animações GSAP, suporte mobile e touch. PHP + JS.</p>
+<p align="center"><img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white"/> <img src="https://img.shields.io/badge/Three.js-000000?style=flat&logo=three.js&logoColor=white"/> <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat&logo=greensock&logoColor=black"/></p>
+</td>
+</tr>
 </table>
 
 ---
