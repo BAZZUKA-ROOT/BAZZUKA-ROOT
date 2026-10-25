@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=200&section=header&text=Maicon%20Braga&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-stack%20%7C%20IoT%20%7C%20Automation&descAlignY=55&descColor=d8b4fe" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=200&section=header&text=Bazzuka&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-stack%20%7C%20IoT%20%7C%20Automation&descAlignY=55&descColor=d8b4fe" width="100%"/>
 
 </div>
 
@@ -146,7 +146,7 @@
 
 <div align="center">
 
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5544998458841)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5544920072871)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maiconluisbraga98@gmail.com)
 [![Veltora](https://img.shields.io/badge/Veltora_Digitais-7C3AED?style=for-the-badge&logo=lightning&logoColor=white)](https://veltoradigitais.com.br)
 
