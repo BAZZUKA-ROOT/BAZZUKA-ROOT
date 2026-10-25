@@ -73,6 +73,7 @@
           <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
         </a>
       </p>
+
       <p align="center">Monitora latência e qualidade da internet com ESP32. Histórico persistente, classificação automática e alertas via Telegram. Portal web responsivo + OTA.</p>
       <p align="center">
         <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white"/>
@@ -130,6 +131,9 @@
         <a href="https://github.com/BAZZUKA-ROOT/cantina-bea">
           <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
         </a>
+        <a href="https://bazzuka-root.github.io/cantina-bea/">
+          <img src="https://img.shields.io/badge/Demo_Ao_Vivo-25D366?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+        </a>
       </p>
       <p align="center">Site completo para cantina/restaurante — cardápio, galeria de fotos, botão WhatsApp, mobile-first. Zero dependências externas.</p>
       <p align="center">
@@ -143,6 +147,9 @@
       <p align="center">
         <a href="https://github.com/BAZZUKA-ROOT/site-restaurante-template">
           <img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
+        </a>
+        <a href="https://bazzuka-root.github.io/site-restaurante-template/">
+          <img src="https://img.shields.io/badge/Demo_Ao_Vivo-25D366?style=for-the-badge&logo=googlechrome&logoColor=white"/>
         </a>
       </p>
       <p align="center">Template HTML responsivo para restaurante — dark mode automático, animações CSS, reservas e pedido via WhatsApp. Hospedagem estática.</p>
