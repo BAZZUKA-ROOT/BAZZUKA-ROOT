@@ -72,8 +72,8 @@
 <td width="50%" valign="top">
 <h3 align="center">🍱 Cantina da Bea</h3>
 <p align="center"><a href="https://github.com/BAZZUKA-ROOT/cantina-bea"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://bazzuka-root.github.io/cantina-bea/"><img src="https://img.shields.io/badge/Demo-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white"/></a></p>
-<p align="center">Site completo para cantina/restaurante — cardápio, galeria, WhatsApp. Mobile-first, zero dependências.</p>
-<p align="center"><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white"/></p>
+<p align="center">Site completo para cantina/restaurante — buffet, delivery com pedido pelo WhatsApp e rota no mapa. Mobile-first, zero dependências.</p>
+<p align="center"><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/></p>
 </td>
 </tr>
 <tr>
