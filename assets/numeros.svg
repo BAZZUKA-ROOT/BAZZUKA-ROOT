@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="478" height="210" viewBox="0 0 478 210" role="img">
+<style>
+  .t{font:600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#C4B5FD}
+  .n{font:700 30px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#F5F3FF}
+  .r{font:400 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#A1A1AA}
+  .l{font:500 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#E4E4E7}
+  .p{font:400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#A1A1AA}
+  .a{opacity:0;animation:e .6s ease-out forwards}
+  @keyframes e{to{opacity:1}}
+  @media (prefers-reduced-motion:reduce){.a{animation:none;opacity:1}}
+</style>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1E1B2E"/><stop offset="1" stop-color="#13111C"/></linearGradient></defs>
+<rect x=".5" y=".5" width="477" height="209" rx="14" fill="url(#g)" stroke="#3B2F63"/>
+<text x="24" y="32" class="t">Números do GitHub</text>
+<g class="a" style="animation-delay:0.1s">
+  <rect x="24" y="46" width="214" height="66" rx="10" fill="#7C3AED" fill-opacity=".09" stroke="#7C3AED" stroke-opacity=".25"/>
+  <text x="40" y="78" class="n">21</text>
+  <text x="40" y="100" class="r">Projetos públicos</text>
+</g>
+<g class="a" style="animation-delay:0.22s">
+  <rect x="254" y="46" width="214" height="66" rx="10" fill="#7C3AED" fill-opacity=".09" stroke="#7C3AED" stroke-opacity=".25"/>
+  <text x="270" y="78" class="n">65</text>
+  <text x="270" y="100" class="r">Contribuições no ano</text>
+</g>
+<g class="a" style="animation-delay:0.33999999999999997s">
+  <rect x="24" y="124" width="214" height="66" rx="10" fill="#7C3AED" fill-opacity=".09" stroke="#7C3AED" stroke-opacity=".25"/>
+  <text x="40" y="156" class="n">41</text>
+  <text x="40" y="178" class="r">Commits no ano</text>
+</g>
+<g class="a" style="animation-delay:0.45999999999999996s">
+  <rect x="254" y="124" width="214" height="66" rx="10" fill="#7C3AED" fill-opacity=".09" stroke="#7C3AED" stroke-opacity=".25"/>
+  <text x="270" y="156" class="n">0</text>
+  <text x="270" y="178" class="r">Estrelas recebidas</text>
+</g>
+</svg>

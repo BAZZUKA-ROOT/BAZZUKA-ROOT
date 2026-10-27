@@ -1,0 +1,24 @@
+{
+  "usuario": "BAZZUKA-ROOT",
+  "recentes": 6,
+  "ocultar": [
+    "BAZZUKA-ROOT",
+    "cantina-da-bea-modelo-4"
+  ],
+  "nomes": {
+    "ta-seguro": "Tá Seguro?",
+    "secscan": "SecScan",
+    "portfolio-bazzuka": "Portfólio",
+    "pdv-local": "PDV Local",
+    "monitor-internet-esp32": "Monitor ESP32",
+    "checksafe-php": "CheckSafe PHP",
+    "ponto-wifi-php": "Ponto WiFi PHP"
+  },
+  "descricoes": {
+    "pdv-local": "🖥️ Ponto de venda desktop 100% offline com Electron + SQLite — caixa, estoque, clientes e relatórios",
+    "impulso": "📣 Gera posts com IA (imagem + legenda) nas cores da sua marca e agenda no Instagram e Facebook",
+    "comparou": "🔎 Comparador de preços multi-loja com radar diário, histórico e alerta quando o preço cai",
+    "secscan": "🔐 Scanner de segurança sem dependências: segredos vazados, RLS do Supabase, CORS aberto, SQL injection e CVEs recentes",
+    "ta-seguro": "🛡️ Detector de golpes para idosos: cole a mensagem ou o print e descubra se é golpe. Roda 100% no celular"
+  }
+}

@@ -1,0 +1,46 @@
+name: Atualizar perfil
+
+on:
+  schedule:
+    - cron: '17 */2 * * *' # a cada 2 horas
+  workflow_dispatch: # botão "Run workflow" na aba Actions
+  push:
+    branches: [master]
+    paths:
+      - perfil.config.json
+      - scripts/**
+      - .github/workflows/atualizar-perfil.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-perfil
+  cancel-in-progress: true
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Gerar README e cards
+        run: node scripts/atualizar.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Salvar se mudou
+        run: |
+          if git diff --quiet; then
+            echo "Nada mudou."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets
+          git commit -m "chore: atualiza perfil automaticamente"
+          git push
