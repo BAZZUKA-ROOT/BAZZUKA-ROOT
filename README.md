@@ -25,7 +25,7 @@
 <h3>✨ Produ O De V Deos</h3>
 <p>plataforma própria de produção de vídeos com IA para empresas, utilizando ferramentas open source e gratuitas, para que você consiga produzir vídeos promocionais e vender esse serviço para lojas, restaurantes, clínicas e outros negócios.</p>
 <p><a href="https://github.com/BAZZUKA-ROOT/produ-o-de-v-deos"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a></p>
-<p> <img src="https://img.shields.io/badge/lan%C3%A7ado_em-03%2F11%2F2026-1F2937?style=flat" alt="lançado em 03/11/2026"/></p>
+<p><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/lan%C3%A7ado_em-03%2F11%2F2026-1F2937?style=flat" alt="lançado em 03/11/2026"/></p>
 </td></tr></table>
 <!-- ULTIMO:FIM -->
 
