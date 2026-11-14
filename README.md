@@ -22,10 +22,10 @@
 
 <!-- ULTIMO:INICIO -->
 <table align="center"><tr><td align="center" width="900">
-<h3>✨ Produ O De V Deos</h3>
-<p>plataforma própria de produção de vídeos com IA para empresas, utilizando ferramentas open source e gratuitas, para que você consiga produzir vídeos promocionais e vender esse serviço para lojas, restaurantes, clínicas e outros negócios.</p>
-<p><a href="https://github.com/BAZZUKA-ROOT/produ-o-de-v-deos"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a></p>
-<p><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/lan%C3%A7ado_em-03%2F11%2F2026-1F2937?style=flat" alt="lançado em 03/11/2026"/></p>
+<h3>✨ Super Central Public</h3>
+<p>Super Central public catalog MCP preview (no local PC control)</p>
+<p><a href="https://github.com/BAZZUKA-ROOT/super-central-public"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a></p>
+<p><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/lan%C3%A7ado_em-14%2F11%2F2026-1F2937?style=flat" alt="lançado em 14/11/2026"/></p>
 </td></tr></table>
 <!-- ULTIMO:FIM -->
 
@@ -99,12 +99,12 @@
 <!-- RECENTES:INICIO -->
 | Projeto | O que faz | Linguagem | Lançado | Links |
 |---|---|:---:|:---:|:---:|
+| **[Produ O De V Deos](https://github.com/BAZZUKA-ROOT/produ-o-de-v-deos)** | plataforma própria de produção de vídeos com IA para empresas, utilizando ferramentas open source e gratuitas, para que você consiga produzir vídeos promocionais e vender esse serviço para lojas, restaurantes, clínicas e outros negócios. | <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/> | 03/11/2026 | <a href="https://github.com/BAZZUKA-ROOT/produ-o-de-v-deos">código</a> |
 | **[Votemais Leads](https://github.com/BAZZUKA-ROOT/votemais-leads)** | Plataforma interna de prospecção da VoteMais: encontra organizadores de concursos e eventos com votação em todo o Brasil, coleta contatos públicos com fonte, classifica oportunidades e prepara mensagens para envio manual pelo WhatsApp. | <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/> | 03/11/2026 | <a href="https://github.com/BAZZUKA-ROOT/votemais-leads">código</a> |
 | **[Caren Bragagnollo](https://github.com/BAZZUKA-ROOT/caren-bragagnollo)** | Projeto novo — descrição em breve. | <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML"/> | 01/11/2026 | <a href="https://github.com/BAZZUKA-ROOT/caren-bragagnollo">código</a> · <a href="https://bazzuka-root.github.io/caren-bragagnollo/">demo</a> |
 | **[Tá Seguro?](https://github.com/BAZZUKA-ROOT/ta-seguro)** | 🛡️ Detector de golpes para idosos: cole a mensagem ou o print e descubra se é golpe. Roda 100% no celular | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript"/> | 27/10/2026 | <a href="https://github.com/BAZZUKA-ROOT/ta-seguro">código</a> · <a href="https://bazzuka-root.github.io/ta-seguro/">demo</a> |
 | **[Impulso](https://github.com/BAZZUKA-ROOT/impulso)** | 📣 Gera posts com IA (imagem + legenda) nas cores da sua marca e agenda no Instagram e Facebook | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/> | 26/10/2026 | <a href="https://github.com/BAZZUKA-ROOT/impulso">código</a> |
 | **[Comparou](https://github.com/BAZZUKA-ROOT/comparou)** | 🔎 Comparador de preços multi-loja com radar diário, histórico e alerta quando o preço cai | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/> | 26/10/2026 | <a href="https://github.com/BAZZUKA-ROOT/comparou">código</a> |
-| **[SecScan](https://github.com/BAZZUKA-ROOT/secscan)** | 🔐 Scanner de segurança sem dependências: segredos vazados, RLS do Supabase, CORS aberto, SQL injection e CVEs recentes | <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/> | 26/10/2026 | <a href="https://github.com/BAZZUKA-ROOT/secscan">código</a> |
 <!-- RECENTES:FIM -->
 
 <p align="right"><sub>🤖 Esta seção e o “Último lançamento” se atualizam sozinhos a cada 2 horas.</sub></p>
