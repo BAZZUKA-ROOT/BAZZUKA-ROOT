@@ -37,21 +37,21 @@
 <p align="center"><sub>Seleção semanal de projetos públicos · atualiza toda segunda-feira · semana de 16/11/2026</sub></p>
 
 <table align="center" width="100%">
-<tr><td align="center" valign="top" width="50%"><h3>Portfólio</h3></td><td align="center" valign="top" width="50%"><h3>Produção de Vídeos</h3></td></tr>
+<tr><td align="center" valign="top" width="50%"><h3>🌐 Portfólio</h3></td><td align="center" valign="top" width="50%"><h3>🎬 Produção de Vídeos</h3></td></tr>
 <tr><td align="center" valign="top" width="50%"><p><a href="https://github.com/BAZZUKA-ROOT/portfolio-bazzuka"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a> <a href="https://bazzuka-root.github.io/portfolio-bazzuka/"><img src="https://img.shields.io/badge/Abrir_demo-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Abrir demo"/></a></p></td><td align="center" valign="top" width="50%"><p><a href="https://github.com/BAZZUKA-ROOT/produ-o-de-v-deos"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a></p></td></tr>
 <tr><td align="center" valign="top" width="50%"><p>Portfolio profissional full-stack com Three.js 3D, animacoes GSAP e suporte mobile</p></td><td align="center" valign="top" width="50%"><p>plataforma própria de produção de vídeos com IA para empresas, utilizando ferramentas open source e gratuitas, para que você consiga produzir vídeos promocionais e vender esse serviço para lojas, restaurantes, clínicas e outros negócios.</p></td></tr>
 <tr><td align="center" valign="top" width="50%"><p><img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP"/></p></td><td align="center" valign="top" width="50%"><p><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/></p></td></tr>
 </table>
 
 <table align="center" width="100%">
-<tr><td align="center" valign="top" width="50%"><h3>Simulador Maquininha</h3></td><td align="center" valign="top" width="50%"><h3>Cantina Bea</h3></td></tr>
+<tr><td align="center" valign="top" width="50%"><h3>💳 Simulador Maquininha</h3></td><td align="center" valign="top" width="50%"><h3>🍱 Cantina Bea</h3></td></tr>
 <tr><td align="center" valign="top" width="50%"><p><a href="https://github.com/BAZZUKA-ROOT/simulador-maquininha"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a> <a href="https://bazzuka-root.github.io/simulador-maquininha/"><img src="https://img.shields.io/badge/Abrir_demo-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Abrir demo"/></a></p></td><td align="center" valign="top" width="50%"><p><a href="https://github.com/BAZZUKA-ROOT/cantina-bea"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a> <a href="https://bazzuka-root.github.io/cantina-bea/"><img src="https://img.shields.io/badge/Abrir_demo-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Abrir demo"/></a></p></td></tr>
 <tr><td align="center" valign="top" width="50%"><p>💳 Simulador web de terminal PagSeguro — interface mobile-first para demonstrações e estudos de UX</p></td><td align="center" valign="top" width="50%"><p>🍱 Site responsivo para cantina/restaurante — buffet, delivery com pedido pelo WhatsApp e rota no mapa. Template mobile-first sem backend</p></td></tr>
 <tr><td align="center" valign="top" width="50%"><p><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML"/></p></td><td align="center" valign="top" width="50%"><p><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML"/></p></td></tr>
 </table>
 
 <table align="center" width="100%">
-<tr><td align="center" valign="top" width="50%"><h3>Turbosaas Rebuild</h3></td><td align="center" valign="top" width="50%"><h3>Maquininha Web Php</h3></td></tr>
+<tr><td align="center" valign="top" width="50%"><h3>🚀 Turbosaas Rebuild</h3></td><td align="center" valign="top" width="50%"><h3>🧾 Maquininha Web Php</h3></td></tr>
 <tr><td align="center" valign="top" width="50%"><p><a href="https://github.com/BAZZUKA-ROOT/turbosaas-rebuild"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a></p></td><td align="center" valign="top" width="50%"><p><a href="https://github.com/BAZZUKA-ROOT/maquininha-web-php"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a></p></td></tr>
 <tr><td align="center" valign="top" width="50%"><p>🚀 Landing page Vite/React para plataforma SaaS de IA — catálogo de ferramentas, dashboard e sistema de checkout</p></td><td align="center" valign="top" width="50%"><p>💳 Sistema PHP de pagamentos web com Mercado Pago — interface POS no navegador, PIX e cartão, webhook e painel admin</p></td></tr>
 <tr><td align="center" valign="top" width="50%"><p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript"/></p></td><td align="center" valign="top" width="50%"><p><img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP"/></p></td></tr>
@@ -83,7 +83,7 @@
 <img src="assets/numeros.svg?v=3bdcf6c6572e" alt="Números reais do GitHub" width="48%"/>
 <img src="assets/linguagens.svg?v=cabf11385d1c" alt="Linguagens por bytes de código" width="48%"/>
 
-<img src="assets/sequencia.svg?v=b81d89bab3e0" alt="Sequências calculadas pelas contribuições oficiais" width="95%"/>
+<img src="assets/sequencia.svg?v=ead3437dec68" alt="Sequências calculadas pelas contribuições oficiais" width="95%"/>
 </div>
 
 <p align="center"><sub>Fonte: GitHub API/GraphQL. Contribuições dos últimos 12 meses; linguagens em bytes de código dos projetos públicos. Atualização agendada a cada 2 horas.</sub></p>
