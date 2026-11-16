@@ -207,13 +207,45 @@ function featuredRow(left, right, render) {
     (r ? render(r) : '&nbsp;') + '</td>';
   return '<tr>' + cell(left) + cell(right) + '</tr>';
 }
+// Ícones sem dependências externas; mapeados por tipo de projeto para
+// permanecerem corretos quando o rodízio selecionar novos repositórios.
+function featuredIcon(repo) {
+  const slug = String(repo.name || '').toLowerCase();
+  const known = {
+    'portfolio-bazzuka': '🌐',
+    'produ-o-de-v-deos': '🎬',
+    'simulador-maquininha': '💳',
+    'cantina-bea': '🍱',
+    'turbosaas-rebuild': '🚀',
+    'maquininha-web-php': '🧾',
+    'super-central-public': '🧩',
+    'votemais-leads': '📊',
+    'pdv-local': '🛒',
+    'ta-seguro': '🛡️',
+    'telegram-colector': '🤖',
+    'limpador-automatico-windows': '🧹'
+  };
+  if (known[slug]) return known[slug];
+  const clues = (slug + ' ' + String(repo.description || '')).toLowerCase();
+  if (/seguran|security|antivirus|golpe|fraude/.test(clues)) return '🛡️';
+  if (/video|vídeo|film|cinema|clipe/.test(clues)) return '🎬';
+  if (/finance|pagamento|mercado pago|maquininha|pdv|pix/.test(clues)) return '💳';
+  if (/restaurante|cantina|delivery|comida/.test(clues)) return '🍽️';
+  if (/monitor|sensor|esp32|iot/.test(clues)) return '📡';
+  if (/telegram|chat|bot/.test(clues)) return '🤖';
+  if (/saas|startup|landing/.test(clues)) return '🚀';
+  if (/ia|inteligência artificial|inteligencia artificial/.test(clues)) return '🧠';
+  if (/site|portfolio|portfólio|web/.test(clues)) return '🌐';
+  return '💻';
+}
 function featuredTable(repos) {
   if (!repos.length) return '';
   const tables = [];
   for (let i = 0; i < repos.length; i += 2) {
     const left = repos[i], right = repos[i + 1];
     const rows = [
-      featuredRow(left, right, r => '<h3>' + escape(title(r)) + '</h3>'),
+      featuredRow(left, right, r => '<h3>' + featuredIcon(r) + ' ' +
+        escape(title(r)) + '</h3>'),
       featuredRow(left, right, r => '<p>' + linksFor(r) + '</p>'),
       featuredRow(left, right, r => '<p>' + escape(description(r)) + '</p>'),
       featuredRow(left, right, r => '<p>' + webBadge(r.language) + '</p>')
