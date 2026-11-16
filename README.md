@@ -25,7 +25,7 @@
 <h3>✨ Super Central Public</h3>
 <p>Super Central public catalog MCP preview (no local PC control)</p>
 <p><a href="https://github.com/BAZZUKA-ROOT/super-central-public"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a></p>
-<p><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/lan%C3%A7ado_em-14%2F11%2F2026-1F2937?style=flat" alt="lançado em 14/11/2026"/></p>
+<p><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/> <sub>Criado no GitHub em 14/11/2026</sub></p>
 </td></tr></table>
 <!-- ULTIMO:FIM -->
 
@@ -33,78 +33,41 @@
 
 ## 🚀 Projetos em destaque
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3 align="center">🛡️ Tá Seguro?</h3>
-<p align="center"><a href="https://github.com/BAZZUKA-ROOT/ta-seguro"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://bazzuka-root.github.io/ta-seguro/"><img src="https://img.shields.io/badge/Demo-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white"/></a></p>
-<p align="center">Detector de golpes para idosos: cole a mensagem ou o print e o app explica, em letra grande, se é golpe. Roda 100% no celular — a mensagem não sai do aparelho.</p>
-<p align="center"><img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat&logo=pwa&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/OCR-1F2937?style=flat"/> <img src="https://img.shields.io/badge/impacto_social-E11D48?style=flat"/></p>
-</td>
-<td width="50%" valign="top">
-<h3 align="center">🤖 Claude Monitor</h3>
-<p align="center"><a href="https://github.com/BAZZUKA-ROOT/claude-monitor"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a></p>
-<p align="center">Dashboard que monitora tokens e custo da API Anthropic por período de cobrança. Alertas via Telegram + histórico SQLite.</p>
-<p align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"/> <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white"/></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3 align="center">🖥️ PDV Local</h3>
-<p align="center"><a href="https://github.com/BAZZUKA-ROOT/pdv-local"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a></p>
-<p align="center">Ponto de venda desktop 100% offline com Electron + SQLite. Caixa, estoque, vendas e relatórios — sem servidor.</p>
-<p align="center"><img src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white"/> <img src="https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white"/> <img src="https://img.shields.io/badge/JS-F7DF1E?style=flat&logo=javascript&logoColor=black"/></p>
-</td>
-<td width="50%" valign="top">
-<h3 align="center">📡 Monitor ESP32</h3>
-<p align="center"><a href="https://github.com/BAZZUKA-ROOT/monitor-internet-esp32"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a></p>
-<p align="center">Monitora latência e qualidade da internet com ESP32. Alertas via Telegram + portal web responsivo + OTA.</p>
-<p align="center"><img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white"/> <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white"/></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3 align="center">💳 Maquininha Web</h3>
-<p align="center"><a href="https://github.com/BAZZUKA-ROOT/maquininha-web-php"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a></p>
-<p align="center">Terminal POS no navegador com Mercado Pago — cartão e PIX. Webhook, painel admin e API REST.</p>
-<p align="center"><img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/></p>
-</td>
-<td width="50%" valign="top">
-<h3 align="center">🍱 Cantina da Bea</h3>
-<p align="center"><a href="https://github.com/BAZZUKA-ROOT/cantina-bea"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://bazzuka-root.github.io/cantina-bea/"><img src="https://img.shields.io/badge/Demo-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white"/></a></p>
-<p align="center">Site completo para cantina/restaurante — buffet, delivery com pedido pelo WhatsApp e rota no mapa. Mobile-first, zero dependências.</p>
-<p align="center"><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3 align="center">📥 Telegram Collector</h3>
-<p align="center"><a href="https://github.com/BAZZUKA-ROOT/telegram-collector"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a></p>
-<p align="center">Bot Python que monitora grupos no Telegram, baixa arquivos e os categoriza automaticamente por tipo.</p>
-<p align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white"/></p>
-</td>
-<td width="50%" valign="top">
-<h3 align="center">🌐 Portfólio</h3>
-<p align="center"><a href="https://github.com/BAZZUKA-ROOT/portfolio-bazzuka"><img src="https://img.shields.io/badge/Ver_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://bazzuka-root.github.io/portfolio-bazzuka/"><img src="https://img.shields.io/badge/Abrir-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white"/></a></p>
-<p align="center">Portfólio com Three.js 3D, partículas, animações GSAP e suporte a toque no celular.</p>
-<p align="center"><img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white"/> <img src="https://img.shields.io/badge/Three.js-000000?style=flat&logo=three.js&logoColor=white"/> <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat&logo=greensock&logoColor=black"/></p>
-</td>
-</tr>
+<!-- DESTAQUES:INICIO -->
+<p><sub>Dados oficiais do GitHub; sem popularidade ou downloads simulados.</sub></p>
+
+### ⭐ Mais estrelados
+
+<p><sub>Nenhum repositório com estrelas registradas até agora.</sub></p>
+
+### 📦 Mais baixados no GitHub Releases
+
+<table align="center" width="100%">
+<tr><td width="50%" valign="top" align="center"><h3>Super Central Public</h3><p><a href="https://github.com/BAZZUKA-ROOT/super-central-public"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a></p><p>Super Central public catalog MCP preview (no local PC control)</p><p><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/></p><p><sub>📦 2 download(s) em Releases</sub></p></td><td width="50%"></td></tr>
 </table>
+
+### 🔄 Escolhas da semana (16/11/2026)
+
+<table align="center" width="100%">
+<tr><td width="50%" valign="top" align="center"><h3>Portfólio</h3><p><a href="https://github.com/BAZZUKA-ROOT/portfolio-bazzuka"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a> <a href="https://bazzuka-root.github.io/portfolio-bazzuka/"><img src="https://img.shields.io/badge/Abrir_demo-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Abrir demo"/></a></p><p>Portfolio profissional full-stack com Three.js 3D, animacoes GSAP e suporte mobile</p><p><img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP"/></p><p><sub>🔁 Escolhido pelo rodízio semanal</sub></p></td><td width="50%" valign="top" align="center"><h3>Produção de Vídeos</h3><p><a href="https://github.com/BAZZUKA-ROOT/produ-o-de-v-deos"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a></p><p>plataforma própria de produção de vídeos com IA para empresas, utilizando ferramentas open source e gratuitas, para que você consiga produzir vídeos promocionais e vender esse serviço para lojas, restaurantes, clínicas e outros negócios.</p><p><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/></p><p><sub>🔁 Escolhido pelo rodízio semanal</sub></p></td></tr>
+<tr><td width="50%" valign="top" align="center"><h3>Simulador Maquininha</h3><p><a href="https://github.com/BAZZUKA-ROOT/simulador-maquininha"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a> <a href="https://bazzuka-root.github.io/simulador-maquininha/"><img src="https://img.shields.io/badge/Abrir_demo-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Abrir demo"/></a></p><p>💳 Simulador web de terminal PagSeguro — interface mobile-first para demonstrações e estudos de UX</p><p><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML"/></p><p><sub>🔁 Escolhido pelo rodízio semanal</sub></p></td><td width="50%" valign="top" align="center"><h3>Cantina Bea</h3><p><a href="https://github.com/BAZZUKA-ROOT/cantina-bea"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a> <a href="https://bazzuka-root.github.io/cantina-bea/"><img src="https://img.shields.io/badge/Abrir_demo-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Abrir demo"/></a></p><p>🍱 Site responsivo para cantina/restaurante — buffet, delivery com pedido pelo WhatsApp e rota no mapa. Template mobile-first sem backend</p><p><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML"/></p><p><sub>🔁 Escolhido pelo rodízio semanal</sub></p></td></tr>
+<tr><td width="50%" valign="top" align="center"><h3>Turbosaas Rebuild</h3><p><a href="https://github.com/BAZZUKA-ROOT/turbosaas-rebuild"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a></p><p>🚀 Landing page Vite/React para plataforma SaaS de IA — catálogo de ferramentas, dashboard e sistema de checkout</p><p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript"/></p><p><sub>🔁 Escolhido pelo rodízio semanal</sub></p></td><td width="50%" valign="top" align="center"><h3>Maquininha Web Php</h3><p><a href="https://github.com/BAZZUKA-ROOT/maquininha-web-php"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a></p><p>💳 Sistema PHP de pagamentos web com Mercado Pago — interface POS no navegador, PIX e cartão, webhook e painel admin</p><p><img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP"/></p><p><sub>🔁 Escolhido pelo rodízio semanal</sub></p></td></tr>
+</table>
+<!-- DESTAQUES:FIM -->
 
 ---
 
 ## 🕒 Lançados recentemente
 
 <!-- RECENTES:INICIO -->
-| Projeto | O que faz | Linguagem | Lançado | Links |
+| Projeto | O que faz | Linguagem | Criado no GitHub | Links |
 |---|---|:---:|:---:|:---:|
-| **[Produ O De V Deos](https://github.com/BAZZUKA-ROOT/produ-o-de-v-deos)** | plataforma própria de produção de vídeos com IA para empresas, utilizando ferramentas open source e gratuitas, para que você consiga produzir vídeos promocionais e vender esse serviço para lojas, restaurantes, clínicas e outros negócios. | <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/> | 03/11/2026 | <a href="https://github.com/BAZZUKA-ROOT/produ-o-de-v-deos">código</a> |
-| **[Votemais Leads](https://github.com/BAZZUKA-ROOT/votemais-leads)** | Plataforma interna de prospecção da VoteMais: encontra organizadores de concursos e eventos com votação em todo o Brasil, coleta contatos públicos com fonte, classifica oportunidades e prepara mensagens para envio manual pelo WhatsApp. | <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/> | 03/11/2026 | <a href="https://github.com/BAZZUKA-ROOT/votemais-leads">código</a> |
-| **[Caren Bragagnollo](https://github.com/BAZZUKA-ROOT/caren-bragagnollo)** | Projeto novo — descrição em breve. | <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML"/> | 01/11/2026 | <a href="https://github.com/BAZZUKA-ROOT/caren-bragagnollo">código</a> · <a href="https://bazzuka-root.github.io/caren-bragagnollo/">demo</a> |
+| **[Super Central Public](https://github.com/BAZZUKA-ROOT/super-central-public)** | Super Central public catalog MCP preview (no local PC control) | <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/> | 14/11/2026 | <a href="https://github.com/BAZZUKA-ROOT/super-central-public">código</a> |
+| **[Produção de Vídeos](https://github.com/BAZZUKA-ROOT/produ-o-de-v-deos)** | plataforma própria de produção de vídeos com IA para empresas, utilizando ferramentas open source e gratuitas, para que você consiga produzir vídeos promocionais e vender esse serviço para lojas, restaurantes, clínicas e outros negócios. | <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/> | 03/11/2026 | <a href="https://github.com/BAZZUKA-ROOT/produ-o-de-v-deos">código</a> |
+| **[VoteMais Leads](https://github.com/BAZZUKA-ROOT/votemais-leads)** | Plataforma interna de prospecção da VoteMais: encontra organizadores de concursos e eventos com votação em todo o Brasil, coleta contatos públicos com fonte, classifica oportunidades e prepara mensagens para envio manual pelo WhatsApp. | <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/> | 03/11/2026 | <a href="https://github.com/BAZZUKA-ROOT/votemais-leads">código</a> |
+| **[Caren Bragagnollo](https://github.com/BAZZUKA-ROOT/caren-bragagnollo)** | Repositório público. Consulte o README para saber mais. | <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML"/> | 02/11/2026 | <a href="https://github.com/BAZZUKA-ROOT/caren-bragagnollo">código</a> · <a href="https://bazzuka-root.github.io/caren-bragagnollo/">demo</a> |
 | **[Tá Seguro?](https://github.com/BAZZUKA-ROOT/ta-seguro)** | 🛡️ Detector de golpes para idosos: cole a mensagem ou o print e descubra se é golpe. Roda 100% no celular | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript"/> | 27/10/2026 | <a href="https://github.com/BAZZUKA-ROOT/ta-seguro">código</a> · <a href="https://bazzuka-root.github.io/ta-seguro/">demo</a> |
 | **[Impulso](https://github.com/BAZZUKA-ROOT/impulso)** | 📣 Gera posts com IA (imagem + legenda) nas cores da sua marca e agenda no Instagram e Facebook | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/> | 26/10/2026 | <a href="https://github.com/BAZZUKA-ROOT/impulso">código</a> |
-| **[Comparou](https://github.com/BAZZUKA-ROOT/comparou)** | 🔎 Comparador de preços multi-loja com radar diário, histórico e alerta quando o preço cai | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/> | 26/10/2026 | <a href="https://github.com/BAZZUKA-ROOT/comparou">código</a> |
 <!-- RECENTES:FIM -->
 
 <p align="right"><sub>🤖 Esta seção e o “Último lançamento” se atualizam sozinhos a cada 2 horas.</sub></p>
@@ -114,11 +77,13 @@
 ## 📊 Números
 
 <div align="center">
-<img src="assets/numeros.svg" alt="Números do GitHub" width="48%"/>
-<img src="assets/linguagens.svg" alt="Linguagens mais usadas" width="48%"/>
+<img src="assets/numeros.svg?v=70e9b9880882" alt="Números reais do GitHub" width="48%"/>
+<img src="assets/linguagens.svg?v=70de550af0a7" alt="Linguagens por bytes de código" width="48%"/>
 
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com/?user=BAZZUKA-ROOT&theme=tokyonight&hide_border=true&background=1A1726&ring=7C3AED&fire=A78BFA&currStreakLabel=C4B5FD&locale=pt_BR" alt="Sequência de contribuições"/></a>
+<img src="assets/sequencia.svg?v=4e1e5a55f481" alt="Sequências calculadas pelas contribuições oficiais" width="95%"/>
 </div>
+
+<p align="center"><sub>Fonte: GitHub API/GraphQL. Contribuições dos últimos 12 meses; linguagens em bytes de código dos projetos públicos. Atualização agendada a cada 2 horas.</sub></p>
 
 ---
 
@@ -129,16 +94,19 @@
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C++ / ESP32](https://img.shields.io/badge/C%2B%2B_%2F_ESP32-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![Bots & IA](https://img.shields.io/badge/Bots_%26_IA-7C3AED?style=for-the-badge)
+![Automação](https://img.shields.io/badge/Automa%C3%A7%C3%A3o-A855F7?style=for-the-badge&logo=githubactions&logoColor=white)
 
 </div>
+
+<p align="center"><sub>Sincronizado com a seção Minha Stack do <a href="https://bazzuka-root.github.io/portfolio-bazzuka/">portfólio</a>.</sub></p>
 
 ---
 

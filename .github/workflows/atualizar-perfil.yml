@@ -28,7 +28,10 @@ jobs:
         with:
           node-version: 20
 
-      - name: Gerar README e cards
+      - name: Testar seleção, números, rodízio e stack
+        run: node --test scripts/profile-logic.test.mjs
+
+      - name: Gerar README e cards oficiais
         run: node scripts/atualizar.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

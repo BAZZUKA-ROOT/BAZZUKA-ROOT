@@ -1,25 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="478" height="210" viewBox="0 0 478 210" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="478" height="244" viewBox="0 0 478 244" role="img">
 <style>
-  .t{font:600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#C4B5FD}
-  .n{font:700 30px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#F5F3FF}
-  .r{font:400 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#A1A1AA}
-  .l{font:500 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#E4E4E7}
-  .p{font:400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#A1A1AA}
-  .a{opacity:0;animation:e .6s ease-out forwards}
-  @keyframes e{to{opacity:1}}
-  @media (prefers-reduced-motion:reduce){.a{animation:none;opacity:1}}
+.t{font:600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#C4B5FD}
+.n{font:700 30px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#F5F3FF}
+.r{font:400 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#A1A1AA}
+.l{font:500 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#E4E4E7}
+.p{font:400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#A1A1AA}
 </style>
 <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1E1B2E"/><stop offset="1" stop-color="#13111C"/></linearGradient></defs>
-<rect x=".5" y=".5" width="477" height="209" rx="14" fill="url(#g)" stroke="#3B2F63"/>
-<text x="24" y="32" class="t">Linguagens mais usadas</text>
-<clipPath id="c"><rect x="24" y="50" width="430" height="10" rx="5"/></clipPath>
-<g clip-path="url(#c)"><rect x="24.0" y="50" width="205.0" height="10" fill="#3776AB"/><rect x="229.0" y="50" width="75.8" height="10" fill="#3178C6"/><rect x="304.8" y="50" width="64.4" height="10" fill="#F7DF1E"/><rect x="369.2" y="50" width="47.6" height="10" fill="#E34F26"/><rect x="416.8" y="50" width="16.7" height="10" fill="#777BB4"/><rect x="433.5" y="50" width="11.3" height="10" fill="#1572B6"/><rect x="444.7" y="50" width="6.2" height="10" fill="#00599C"/><rect x="451.0" y="50" width="2.0" height="10" fill="#4EAA25"/></g>
-<g class="a" style="animation-delay:0.1s"><circle cx="29" cy="88" r="5" fill="#3776AB"/><text x="42" y="92" class="l">Python</text><text x="220" y="92" class="p" text-anchor="end">47,7%</text></g>
-<g class="a" style="animation-delay:0.17s"><circle cx="249" cy="88" r="5" fill="#3178C6"/><text x="262" y="92" class="l">TypeScript</text><text x="440" y="92" class="p" text-anchor="end">17,6%</text></g>
-<g class="a" style="animation-delay:0.24000000000000002s"><circle cx="29" cy="114" r="5" fill="#F7DF1E"/><text x="42" y="118" class="l">JavaScript</text><text x="220" y="118" class="p" text-anchor="end">15,0%</text></g>
-<g class="a" style="animation-delay:0.31000000000000005s"><circle cx="249" cy="114" r="5" fill="#E34F26"/><text x="262" y="118" class="l">HTML</text><text x="440" y="118" class="p" text-anchor="end">11,1%</text></g>
-<g class="a" style="animation-delay:0.38s"><circle cx="29" cy="140" r="5" fill="#777BB4"/><text x="42" y="144" class="l">PHP</text><text x="220" y="144" class="p" text-anchor="end">3,9%</text></g>
-<g class="a" style="animation-delay:0.45000000000000007s"><circle cx="249" cy="140" r="5" fill="#1572B6"/><text x="262" y="144" class="l">CSS</text><text x="440" y="144" class="p" text-anchor="end">2,6%</text></g>
-<g class="a" style="animation-delay:0.52s"><circle cx="29" cy="166" r="5" fill="#00599C"/><text x="42" y="170" class="l">C++</text><text x="220" y="170" class="p" text-anchor="end">1,5%</text></g>
-<g class="a" style="animation-delay:0.5900000000000001s"><circle cx="249" cy="166" r="5" fill="#4EAA25"/><text x="262" y="170" class="l">Shell</text><text x="440" y="170" class="p" text-anchor="end">0,3%</text></g>
+<rect x=".5" y=".5" width="477" height="243" rx="14" fill="url(#g)" stroke="#3B2F63"/>
+<text x="24" y="32" class="t">Linguagens · bytes dos projetos</text>
+<clipPath id="clip"><rect x="24" y="50" width="430" height="10" rx="5"/></clipPath>
+<g clip-path="url(#clip)"><rect x="24.00" y="50" width="204.90" height="10" fill="#3776AB"/><rect x="228.90" y="50" width="75.74" height="10" fill="#3178C6"/><rect x="304.65" y="50" width="64.61" height="10" fill="#F7DF1E"/><rect x="369.26" y="50" width="47.58" height="10" fill="#E34F26"/><rect x="416.84" y="50" width="16.67" height="10" fill="#777BB4"/><rect x="433.51" y="50" width="11.25" height="10" fill="#1572B6"/><rect x="444.75" y="50" width="6.24" height="10" fill="#00599C"/><rect x="450.99" y="50" width="1.43" height="10" fill="#4EAA25"/><rect x="452.42" y="50" width="1.58" height="10" fill="#8B5CF6"/></g>
+<g><circle cx="29" cy="88" r="5" fill="#3776AB"/><text x="42" y="92" class="l">Python</text><text x="220" y="92" class="p" text-anchor="end">47,7%</text></g>
+<g><circle cx="249" cy="88" r="5" fill="#3178C6"/><text x="262" y="92" class="l">TypeScript</text><text x="440" y="92" class="p" text-anchor="end">17,6%</text></g>
+<g><circle cx="29" cy="114" r="5" fill="#F7DF1E"/><text x="42" y="118" class="l">JavaScript</text><text x="220" y="118" class="p" text-anchor="end">15,0%</text></g>
+<g><circle cx="249" cy="114" r="5" fill="#E34F26"/><text x="262" y="118" class="l">HTML</text><text x="440" y="118" class="p" text-anchor="end">11,1%</text></g>
+<g><circle cx="29" cy="140" r="5" fill="#777BB4"/><text x="42" y="144" class="l">PHP</text><text x="220" y="144" class="p" text-anchor="end">3,9%</text></g>
+<g><circle cx="249" cy="140" r="5" fill="#1572B6"/><text x="262" y="144" class="l">CSS</text><text x="440" y="144" class="p" text-anchor="end">2,6%</text></g>
+<g><circle cx="29" cy="166" r="5" fill="#00599C"/><text x="42" y="170" class="l">C++</text><text x="220" y="170" class="p" text-anchor="end">1,5%</text></g>
+<g><circle cx="249" cy="166" r="5" fill="#4EAA25"/><text x="262" y="170" class="l">Shell</text><text x="440" y="170" class="p" text-anchor="end">0,3%</text></g>
+<g><circle cx="29" cy="192" r="5" fill="#8B5CF6"/><text x="42" y="196" class="l">Outras</text><text x="220" y="196" class="p" text-anchor="end">0,4%</text></g>
 </svg>
