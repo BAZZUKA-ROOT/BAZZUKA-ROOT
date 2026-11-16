@@ -1,11 +1,11 @@
-// Perfil GitHub Bazzuka: dados oficiais, três fontes de destaque e SVGs próprios.
+// Perfil GitHub Bazzuka: dados oficiais, destaque único semanal e SVGs próprios.
 // PROFILE_DRY_RUN=1 valida tudo sem modificar arquivos ou fazer commits.
 import { readFile, writeFile, mkdir, rename } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import {
-  repositoriesForProfile, selectHighlights, summarizeLanguages,
+  repositoriesForProfile, weeklySelection, mondayUtc, summarizeLanguages,
   languagePercentages, parsePortfolioStack, safeDescription, streakMetrics
 } from './profile-logic.mjs';
 
@@ -129,20 +129,13 @@ if (file.encoding !== 'base64' || !file.content)
 const portfolioHtml = Buffer.from(file.content.replace(/\s/g, ''), 'base64').toString('utf8');
 const stack = parsePortfolioStack(portfolioHtml);
 
-// Download = apenas download_count de assets de GitHub Releases, jamais clones.
-const releaseLists = await mapLimit(showcased, 4, r =>
-  getAll('/repos/' + OWNER + '/' + encodeURIComponent(r.name) + '/releases?'));
-const downloads = new Map(showcased.map((r, index) => [
-  r.name.toLowerCase(),
-  releaseLists[index].reduce((sum, release) => sum +
-    (release.assets || []).reduce((s, asset) =>
-      s + Number(asset.download_count || 0), 0), 0)
-]));
-const highlights = selectHighlights(showcased, downloads, new Date(), cfg.destaques);
-const totalDownloads = [...downloads.values()].reduce((sum, value) => sum + value, 0);
-const featured = [...highlights.stars, ...highlights.downloaded, ...highlights.rotating];
-if (new Set(featured.map(r => r.name)).size !== featured.length)
-  throw Error('Destaques duplicados.');
+// Um único conjunto de destaques, pseudoaleatório e estável durante a semana.
+// A seleção muda automaticamente quando a data UTC alcança outra segunda-feira.
+const weeklyLimit = Math.max(1, Math.min(12, Number(cfg.destaques?.rotacao ?? 6)));
+const weeklyDate = mondayUtc(new Date());
+const weekly = weeklySelection(showcased, weeklyLimit, new Date());
+if (new Set(weekly.map(r => r.name)).size !== weekly.length)
+  throw Error('Destaques semanais duplicados.');
 
 const COLORS = {
   'PHP': ['777BB4', 'php', 'white'], 'Python': ['3776AB', 'python', 'white'],
@@ -204,37 +197,28 @@ function recentBlock(repos) {
   return ['| Projeto | O que faz | Linguagem | Criado no GitHub | Links |',
     '|---|---|:---:|:---:|:---:|', ...result].join('\n');
 }
-function featuredCard(r, mode) {
-  const note = mode === 'stars' ? '⭐ ' + Number(r.stargazers_count) + ' estrela(s)' :
-    mode === 'downloads' ? '📦 ' + downloads.get(r.name.toLowerCase()) +
-    ' download(s) em Releases' : '🔁 Escolhido pelo rodízio semanal';
+function featuredCard(r) {
   return '<td width="50%" valign="top" align="center">' +
     '<h3>' + escape(title(r)) + '</h3><p>' + linksFor(r) + '</p>' +
     '<p>' + escape(description(r)) + '</p>' +
-    '<p>' + webBadge(r.language) + '</p><p><sub>' + note +
-    '</sub></p></td>';
+    '<p>' + webBadge(r.language) + '</p></td>';
 }
-function featuredTable(repos, mode) {
+function featuredTable(repos) {
   if (!repos.length) return '';
   const rows = [];
   for (let i=0;i<repos.length;i+=2) {
-    rows.push('<tr>' + featuredCard(repos[i],mode) +
-      (repos[i+1] ? featuredCard(repos[i+1],mode) :
+    rows.push('<tr>' + featuredCard(repos[i]) +
+      (repos[i+1] ? featuredCard(repos[i+1]) :
         '<td width="50%"></td>') + '</tr>');
   }
   return '<table align="center" width="100%">\n' + rows.join('\n') + '\n</table>';
 }
 function highlightedBlock() {
   return [
-    '<p><sub>Dados oficiais do GitHub; sem popularidade ou downloads simulados.</sub></p>',
-    '### ⭐ Mais estrelados',
-    highlights.stars.length ? featuredTable(highlights.stars, 'stars') :
-      '<p><sub>Nenhum repositório com estrelas registradas até agora.</sub></p>',
-    '### 📦 Mais baixados no GitHub Releases',
-    highlights.downloaded.length ? featuredTable(highlights.downloaded, 'downloads') :
-      '<p><sub>Nenhum download de asset em GitHub Releases registrado.</sub></p>',
-    '### 🔄 Escolhas da semana (' + isoDate(highlights.week) + ')',
-    featuredTable(highlights.rotating, 'weekly')
+    '<p align="center"><sub>Seleção semanal de projetos públicos · ' +
+      'atualiza toda segunda-feira · semana de ' + isoDate(weeklyDate) +
+      '</sub></p>',
+    featuredTable(weekly)
   ].join('\n\n');
 }
 
@@ -404,11 +388,8 @@ const summary = {
   eligibleProjects: showcased.length,
   latest: showcased[0].name,
   recent: showcased.slice(0, cfg.recentes || 6).map(r => r.name),
-  starred: highlights.stars.map(r => r.name),
-  mostDownloaded: highlights.downloaded.map(r => r.name),
-  weekly: highlights.rotating.map(r => r.name),
-  week: highlights.week,
-  releaseDownloads: totalDownloads,
+  weekly: weekly.map(r => r.name),
+  week: weeklyDate,
   stack,
   languages: percentages.rows.map(x => [x.name, Number(x.percent.toFixed(2))]),
   contributions: numbers.contributions,
