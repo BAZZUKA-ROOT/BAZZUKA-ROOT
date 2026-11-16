@@ -203,7 +203,7 @@ function recentBlock(repos) {
 // As linhas da tabela são compartilhadas pelos dois cards. Assim o GitHub
 // alinha títulos, ações, descrições e badges mesmo com textos de tamanhos diferentes.
 function featuredRow(left, right, render) {
-  const cell = r => '<td align="center" valign="middle" width="50%">' +
+  const cell = r => '<td align="center" valign="top" width="50%">' +
     (r ? render(r) : '&nbsp;') + '</td>';
   return '<tr>' + cell(left) + cell(right) + '</tr>';
 }
