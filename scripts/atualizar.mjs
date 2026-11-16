@@ -180,8 +180,11 @@ function latestBlock(r) {
     '<h3>✨ ' + escape(title(r)) + '</h3>',
     '<p>' + escape(description(r)) + '</p>',
     '<p>' + linksFor(r) + '</p>',
-    '<p>' + webBadge(r.language) + ' <sub>Criado no GitHub em ' +
-      isoDate(r.created_at) + '</sub></p>',
+    '<p align="center">' + webBadge(r.language) + ' ' +
+      '<img alt="Criado no GitHub em ' + escape(isoDate(r.created_at)) +
+      '" src="https://img.shields.io/badge/Criado_em-' +
+      encodeURIComponent(isoDate(r.created_at)) +
+      '-292438?style=flat&amp;logo=github&amp;logoColor=white"/></p>',
     '</td></tr></table>'
   ].join('\n');
 }
@@ -197,21 +200,28 @@ function recentBlock(repos) {
   return ['| Projeto | O que faz | Linguagem | Criado no GitHub | Links |',
     '|---|---|:---:|:---:|:---:|', ...result].join('\n');
 }
-function featuredCard(r) {
-  return '<td width="50%" valign="top" align="center">' +
-    '<h3>' + escape(title(r)) + '</h3><p>' + linksFor(r) + '</p>' +
-    '<p>' + escape(description(r)) + '</p>' +
-    '<p>' + webBadge(r.language) + '</p></td>';
+// As linhas da tabela são compartilhadas pelos dois cards. Assim o GitHub
+// alinha títulos, ações, descrições e badges mesmo com textos de tamanhos diferentes.
+function featuredRow(left, right, render) {
+  const cell = r => '<td align="center" valign="middle" width="50%">' +
+    (r ? render(r) : '&nbsp;') + '</td>';
+  return '<tr>' + cell(left) + cell(right) + '</tr>';
 }
 function featuredTable(repos) {
   if (!repos.length) return '';
-  const rows = [];
-  for (let i=0;i<repos.length;i+=2) {
-    rows.push('<tr>' + featuredCard(repos[i]) +
-      (repos[i+1] ? featuredCard(repos[i+1]) :
-        '<td width="50%"></td>') + '</tr>');
+  const tables = [];
+  for (let i = 0; i < repos.length; i += 2) {
+    const left = repos[i], right = repos[i + 1];
+    const rows = [
+      featuredRow(left, right, r => '<h3>' + escape(title(r)) + '</h3>'),
+      featuredRow(left, right, r => '<p>' + linksFor(r) + '</p>'),
+      featuredRow(left, right, r => '<p>' + escape(description(r)) + '</p>'),
+      featuredRow(left, right, r => '<p>' + webBadge(r.language) + '</p>')
+    ];
+    tables.push('<table align="center" width="100%">\n' +
+      rows.join('\n') + '\n</table>');
   }
-  return '<table align="center" width="100%">\n' + rows.join('\n') + '\n</table>';
+  return tables.join('\n\n');
 }
 function highlightedBlock() {
   return [
