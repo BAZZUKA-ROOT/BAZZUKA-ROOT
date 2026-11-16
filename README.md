@@ -80,10 +80,10 @@
 ## 📊 Números
 
 <div align="center">
-<img src="assets/numeros.svg?v=d4ea9e6ad233" alt="Números reais do GitHub" width="48%"/>
+<img src="assets/numeros.svg?v=3bdcf6c6572e" alt="Números reais do GitHub" width="48%"/>
 <img src="assets/linguagens.svg?v=cabf11385d1c" alt="Linguagens por bytes de código" width="48%"/>
 
-<img src="assets/sequencia.svg?v=16e24d83178c" alt="Sequências calculadas pelas contribuições oficiais" width="95%"/>
+<img src="assets/sequencia.svg?v=b81d89bab3e0" alt="Sequências calculadas pelas contribuições oficiais" width="95%"/>
 </div>
 
 <p align="center"><sub>Fonte: GitHub API/GraphQL. Contribuições dos últimos 12 meses; linguagens em bytes de código dos projetos públicos. Atualização agendada a cada 2 horas.</sub></p>
