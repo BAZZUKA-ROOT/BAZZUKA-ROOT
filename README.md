@@ -44,17 +44,17 @@
 </table>
 
 <table align="center" width="100%">
-<tr><td align="center" valign="top" width="50%"><h3>💳 Simulador Maquininha</h3></td><td align="center" valign="top" width="50%"><h3>🍱 Cantina Bea</h3></td></tr>
-<tr><td align="center" valign="top" width="50%"><p><a href="https://github.com/BAZZUKA-ROOT/simulador-maquininha"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a> <a href="https://bazzuka-root.github.io/simulador-maquininha/"><img src="https://img.shields.io/badge/Abrir_demo-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Abrir demo"/></a></p></td><td align="center" valign="top" width="50%"><p><a href="https://github.com/BAZZUKA-ROOT/cantina-bea"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a> <a href="https://bazzuka-root.github.io/cantina-bea/"><img src="https://img.shields.io/badge/Abrir_demo-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Abrir demo"/></a></p></td></tr>
-<tr><td align="center" valign="top" width="50%"><p>Simulador web de terminal de pagamento para demonstrações de UX com interface mobile-first.</p></td><td align="center" valign="top" width="50%"><p>Site responsivo para cantina e restaurante, com pedidos pelo WhatsApp e localização no mapa.</p></td></tr>
-<tr><td align="center" valign="top" width="50%"><p><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML"/></p></td><td align="center" valign="top" width="50%"><p><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML"/></p></td></tr>
+<tr><td align="center" valign="top" width="50%"><h3>💳 Simulador Maquininha</h3></td><td align="center" valign="top" width="50%"><h3>🚀 Turbosaas Rebuild</h3></td></tr>
+<tr><td align="center" valign="top" width="50%"><p><a href="https://github.com/BAZZUKA-ROOT/simulador-maquininha"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a> <a href="https://bazzuka-root.github.io/simulador-maquininha/"><img src="https://img.shields.io/badge/Abrir_demo-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Abrir demo"/></a></p></td><td align="center" valign="top" width="50%"><p><a href="https://github.com/BAZZUKA-ROOT/turbosaas-rebuild"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a></p></td></tr>
+<tr><td align="center" valign="top" width="50%"><p>Simulador web de terminal de pagamento para demonstrações de UX com interface mobile-first.</p></td><td align="center" valign="top" width="50%"><p>Protótipo de landing page e dashboard SaaS de IA com React, catálogo e fluxo de checkout.</p></td></tr>
+<tr><td align="center" valign="top" width="50%"><p><img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML"/></p></td><td align="center" valign="top" width="50%"><p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript"/></p></td></tr>
 </table>
 
 <table align="center" width="100%">
-<tr><td align="center" valign="top" width="50%"><h3>🚀 Turbosaas Rebuild</h3></td><td align="center" valign="top" width="50%"><h3>🧾 Maquininha Web Php</h3></td></tr>
-<tr><td align="center" valign="top" width="50%"><p><a href="https://github.com/BAZZUKA-ROOT/turbosaas-rebuild"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a></p></td><td align="center" valign="top" width="50%"><p><a href="https://github.com/BAZZUKA-ROOT/maquininha-web-php"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a></p></td></tr>
-<tr><td align="center" valign="top" width="50%"><p>Protótipo de landing page e dashboard SaaS de IA com React, catálogo e fluxo de checkout.</p></td><td align="center" valign="top" width="50%"><p>Sistema PHP de pagamentos web com Mercado Pago, PIX, cartão, webhooks e painel administrativo.</p></td></tr>
-<tr><td align="center" valign="top" width="50%"><p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript"/></p></td><td align="center" valign="top" width="50%"><p><img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP"/></p></td></tr>
+<tr><td align="center" valign="top" width="50%"><h3>🧾 Maquininha Web Php</h3></td><td align="center" valign="top" width="50%"><h3>📊 VoteMais Leads</h3></td></tr>
+<tr><td align="center" valign="top" width="50%"><p><a href="https://github.com/BAZZUKA-ROOT/maquininha-web-php"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a></p></td><td align="center" valign="top" width="50%"><p><a href="https://github.com/BAZZUKA-ROOT/votemais-leads"><img src="https://img.shields.io/badge/Ver_c%C3%B3digo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Ver código"/></a></p></td></tr>
+<tr><td align="center" valign="top" width="50%"><p>Sistema PHP de pagamentos web com Mercado Pago, PIX, cartão, webhooks e painel administrativo.</p></td><td align="center" valign="top" width="50%"><p>Ferramenta de prospecção de organizadores de concursos e eventos para a plataforma VoteMais.</p></td></tr>
+<tr><td align="center" valign="top" width="50%"><p><img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP"/></p></td><td align="center" valign="top" width="50%"><p><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/></p></td></tr>
 </table>
 <!-- DESTAQUES:FIM -->
 
@@ -80,10 +80,10 @@
 ## 📊 Números
 
 <div align="center">
-<img src="assets/numeros.svg?v=770dba6137f8" alt="Números reais do GitHub" width="48%"/>
+<img src="assets/numeros.svg?v=f7b5893618fc" alt="Números reais do GitHub" width="48%"/>
 <img src="assets/linguagens.svg?v=cabf11385d1c" alt="Linguagens por bytes de código" width="48%"/>
 
-<img src="assets/sequencia.svg?v=47e2c0513498" alt="Sequências calculadas pelas contribuições oficiais" width="95%"/>
+<img src="assets/sequencia.svg?v=e594858ecda8" alt="Sequências calculadas pelas contribuições oficiais" width="95%"/>
 </div>
 
 <p align="center"><sub>Fonte: GitHub API/GraphQL. Contribuições dos últimos 12 meses; linguagens em bytes de código dos projetos públicos. Atualização agendada a cada 2 horas.</sub></p>

@@ -10,7 +10,7 @@
 <rect x=".5" y=".5" width="477" height="243" rx="14" fill="url(#g)" stroke="#3B2F63"/>
 <text x="24" y="32" class="t">Números do GitHub</text>
 <g><rect x="24" y="63" width="214" height="66" rx="10" fill="#7C3AED" fill-opacity=".09" stroke="#7C3AED" stroke-opacity=".25"/><text x="40" y="95" class="n">27</text><text x="40" y="117" class="r">Repositórios públicos</text></g>
-<g><rect x="254" y="63" width="214" height="66" rx="10" fill="#7C3AED" fill-opacity=".09" stroke="#7C3AED" stroke-opacity=".25"/><text x="270" y="95" class="n">139</text><text x="270" y="117" class="r">Contribuições · 12 meses</text></g>
-<g><rect x="24" y="141" width="214" height="66" rx="10" fill="#7C3AED" fill-opacity=".09" stroke="#7C3AED" stroke-opacity=".25"/><text x="40" y="173" class="n">99</text><text x="40" y="195" class="r">Commits contabilizados</text></g>
+<g><rect x="254" y="63" width="214" height="66" rx="10" fill="#7C3AED" fill-opacity=".09" stroke="#7C3AED" stroke-opacity=".25"/><text x="270" y="95" class="n">145</text><text x="270" y="117" class="r">Contribuições · 12 meses</text></g>
+<g><rect x="24" y="141" width="214" height="66" rx="10" fill="#7C3AED" fill-opacity=".09" stroke="#7C3AED" stroke-opacity=".25"/><text x="40" y="173" class="n">105</text><text x="40" y="195" class="r">Commits contabilizados</text></g>
 <g><rect x="254" y="141" width="214" height="66" rx="10" fill="#7C3AED" fill-opacity=".09" stroke="#7C3AED" stroke-opacity=".25"/><text x="270" y="173" class="n">0</text><text x="270" y="195" class="r">Estrelas recebidas</text></g>
 </svg>
