@@ -213,7 +213,7 @@ function featuredIcon(repo) {
   const slug = String(repo.name || '').toLowerCase();
   const known = {
     'portfolio-bazzuka': '🌐',
-    'produ-o-de-v-deos': '🎬',
+    'producao-de-video': '🎬',
     'simulador-maquininha': '💳',
     'cantinabea': '🍱',
     'turbosaas-rebuild': '🚀',
