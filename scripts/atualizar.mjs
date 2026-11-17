@@ -215,7 +215,7 @@ function featuredIcon(repo) {
     'portfolio-bazzuka': '🌐',
     'produ-o-de-v-deos': '🎬',
     'simulador-maquininha': '💳',
-    'cantina-bea': '🍱',
+    'cantinabea': '🍱',
     'turbosaas-rebuild': '🚀',
     'maquininha-web-php': '🧾',
     'super-central-public': '🧩',
