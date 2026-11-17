@@ -4,7 +4,7 @@
   "ocultar": [
     "BAZZUKA-ROOT",
     "cantina-da-bea-modelo-4",
-    "qa-gestor-projetos-20261116"
+    "GestorProjetosQA"
   ],
   "nomes": {
     "ta-seguro": "Tá Seguro?",
@@ -17,7 +17,8 @@
     "super-central-public": "Super Central Public",
     "produ-o-de-v-deos": "Produção de Vídeos",
     "votemais-leads": "VoteMais Leads",
-    "caren-bragagnollo": "Caren Bragagnollo"
+    "caren-bragagnollo": "Caren Bragagnollo",
+    "GestorProjetosQA": "Gestor de Projetos QA"
   },
   "descricoes": {
     "pdv-local": "🖥️ Ponto de venda desktop 100% offline com Electron + SQLite — caixa, estoque, clientes e relatórios",
