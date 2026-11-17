@@ -283,6 +283,10 @@ function base(width, height, body) {
     '" height="' + (height - 1) + '" rx="14" fill="url(#g)" ' +
     'stroke="#3B2F63"/>\n' + body + '\n</svg>\n';
 }
+// Os dois cartões superiores compartilham exatamente a mesma altura.
+// O GitHub alinha imagens inline pela base; alturas diferentes deslocavam
+// o cartão de números para baixo quando havia nove linguagens.
+const metricsCardHeight = percentages.rows.length > 8 ? 244 : 210;
 function numbersSvg() {
   const fields = [
     ['Repositórios públicos', numbers.publicRepos],
@@ -292,7 +296,8 @@ function numbersSvg() {
   ];
   const rectangles = fields.map(([name, val], i) => {
     const x = 24 + (i % 2) * 230;
-    const y = 82 + Math.floor(i / 2) * 78;
+    const y = 82 + Math.floor(i / 2) * 78 +
+      Math.floor((metricsCardHeight - 210) / 2);
     return '<g><rect x="' + x + '" y="' + (y - 36) +
       '" width="214" height="66" rx="10" fill="#7C3AED" ' +
       'fill-opacity=".09" stroke="#7C3AED" stroke-opacity=".25"/>' +
@@ -301,8 +306,8 @@ function numbersSvg() {
       '<text x="' + (x + 16) + '" y="' + (y + 18) +
       '" class="r">' + escape(name) + '</text></g>';
   }).join('\n');
-  return base(478, 210, '<text x="24" y="32" class="t">Números do GitHub</text>\n' +
-    rectangles);
+  return base(478, metricsCardHeight,
+    '<text x="24" y="32" class="t">Números do GitHub</text>\n' + rectangles);
 }
 function languagesSvg() {
   const width = 478;
@@ -328,7 +333,7 @@ function languagesSvg() {
       '" y="' + y + '" class="p" text-anchor="end">' +
       row.percent.toFixed(1).replace('.', ',') + '%</text></g>';
   }).join('\n');
-  return base(width, percentages.rows.length > 8 ? 244 : 210,
+  return base(width, metricsCardHeight,
     '<text x="24" y="32" class="t">Linguagens · bytes dos projetos</text>\n' +
     '<clipPath id="clip"><rect x="24" y="50" width="' + barWidth +
     '" height="10" rx="5"/></clipPath>\n' +
